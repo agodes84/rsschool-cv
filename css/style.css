@@ -4,7 +4,24 @@ p {
 }
 h1 {
     font-family: 'Permanent Marker', cursive;
+    font-size: 70px;
 }
 body {
     font-family: 'Merriweather', serif;
+    margin: auto;
+    padding: 20px;
+}
+li {
+    font-style: italic;
+}
+header{
+    height: 400px;
+    width: 900;
+    margin-bottom: 10px; 
+    background-image: url(../img/header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.avatar{
+    float: right;
 }
