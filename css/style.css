@@ -24,6 +24,7 @@ header{
 }
 .avatar{
     float: right;
+    width: 25%;
 }
 .year{
     text-align: center;
@@ -39,4 +40,10 @@ div{
 }
 nav div{
     color: aliceblue;
+}
+a:visited{
+    color: rgb(6, 229, 241);
+}
+.logo{
+    width: 50%;
 }
