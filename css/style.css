@@ -25,3 +25,18 @@ header{
 .avatar{
     float: right;
 }
+.year{
+    text-align: center;
+}
+div{
+  float: left;
+  text-align: center;
+  margin: 50px;
+  line-height: 120px;
+  font-size: 40px;
+  color: navy;
+  font-style: oblique;
+}
+nav div{
+    color: aliceblue;
+}
