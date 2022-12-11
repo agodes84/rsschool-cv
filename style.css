@@ -1,0 +1,14 @@
+@font-face {
+    font-family:'Permanent Marker';
+    font-style: italic;
+    src: url(assets/fonts/PermanentMarker-Regular.ttf);
+} 
+@font-face {
+    font-family: 'Kanit';
+    src: url(assets/fonts/Kanit-Regular.ttf);
+}
+@font-face {
+    font-family: 'Kanit';
+    font-style: italic;
+    src: url(assets/fonts/Kanit-Italic.ttf);
+}
