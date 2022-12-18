@@ -80,7 +80,9 @@ html {
 
 .header {
     background-color: black;
-
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
 .main {
@@ -90,13 +92,14 @@ html {
 .avatar-picture {
     width: 300px;
     border-radius: 15px;
-
+    padding-top: 50px;
 }
 
 .profile-title,
 .profilesubtitle {
     font-family: 'Permanent Marker';
     font-style: italic;
+    padding-top: 50px;
 
 }
 
@@ -118,4 +121,36 @@ html {
 
 .list {
     list-style: "✌";
+}
+
+.footer {
+    background-color: rgb(99, 97, 97);
+    width: 100%;
+    font-family: 'Kanit';
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.rs-school-link {
+    padding-left: 100px;
+}
+
+.rs-logo {
+    width: 200px;
+}
+
+.github-logo {
+    width: 75px;
+}
+
+.github-link {
+
+    padding-left: 100px;
+}
+
+.rs-school-link {
+    padding-left: 100px;
 }
