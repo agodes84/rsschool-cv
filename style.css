@@ -31,6 +31,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    font-size: 20px;
 }
 
 .nav-list {
@@ -40,6 +41,7 @@ body {
     list-style: none;
     font-family: 'Kanit';
     font-style: italic;
+
 }
 
 html {
@@ -76,6 +78,15 @@ html {
     justify-content: flex-end;
 }
 
+.header {
+    background-color: black;
+
+}
+
+.main {
+    background-color: rgb(145, 145, 141);
+}
+
 .avatar-picture {
     width: 300px;
     border-radius: 15px;
@@ -103,4 +114,8 @@ html {
     font-family: 'Kanit';
     font-style: italic;
     text-align: start;
+}
+
+.list {
+    list-style: "✌";
 }
