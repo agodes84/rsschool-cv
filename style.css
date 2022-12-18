@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'Permanent Marker';
+    font-style: italic;
+    src: url(assets/fonts/PermanentMarker-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url(assets/fonts/Kanit-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Kanit';
+    font-style: italic;
+    src: url(assets/fonts/Kanit-Italic.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-family: 'Kanit';
+    font-style: italic;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: blue;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    color: red;
+}
+
+.section {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.header {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.main {
+    background-color: rgb(145, 145, 141);
+}
+
+.avatar-picture {
+    width: 300px;
+    border-radius: 15px;
+    padding-top: 50px;
+}
+
+.profile-title,
+.profilesubtitle {
+    font-family: 'Permanent Marker';
+    font-style: italic;
+    padding-top: 50px;
+
+}
+
+.profile-title {
+    font-size: 50px;
+    color: rgb(83, 5, 5);
+}
+
+.profile-subtitle {
+    font-size: 20px;
+    color: rgb(19, 7, 122);
+}
+
+.section-title {
+    font-family: 'Kanit';
+    font-style: italic;
+    text-align: start;
+}
+
+.list {
+    list-style: "✌";
+}
+
+.footer {
+    background-color: rgb(99, 97, 97);
+    width: 100%;
+    font-family: 'Kanit';
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.rs-school-link {
+    padding-left: 100px;
+}
+
+.rs-logo {
+    width: 200px;
+}
+
+.github-logo {
+    width: 75px;
+}
+
+.github-link {
+
+    padding-left: 100px;
+}
+
+.rs-school-link {
+    padding-left: 100px;
+}
